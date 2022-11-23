@@ -1,10 +1,10 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "ray.h"
 #include "rtweekend.h"
 
 class material;
+
 struct hit_record
 {
     point3 p;
